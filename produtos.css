@@ -83,3 +83,15 @@ font-size: 40px;
     margin-top: 10px;
 }
 
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copy {
+    margin: 20px;
+    font-size: 13px;
+    color: #fff;
+    
+}
