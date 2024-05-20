@@ -8,13 +8,14 @@ form {
 }
 
 form label {
-    display:block;
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form label, form p {
-    display:block;
+form label,
+form p {
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
@@ -41,8 +42,42 @@ footer {
     color: white;
 }
 
-form label, form legend {
-    display:block;
+form label,
+form legend {
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000; 
+    padding: 8px 15px;
 }
